@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-with, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="menustyle.css"/>
+    <script type="text/javascript" src="jquery/1.9.0/jquery.js"></script>
+<script>
+    $(function() {
+        $('.navMenu').mouseover(function() {
+            $(this).children('ul').show();            
+        });
+        $('.navMenu').mouseout(function(){
+            $(this).children('ul').hide();
+        });
+    });
+</script>
+
+<title></title>
+</head>
+
+<body>
+<div class="nav">
+<ul>
+<li class="navMenu">
+    <a href="#">Language</a>
+     <ul>
+     <li><a href="#">Java</a></li>
+     <li><a href="#">C++</a></li>
+     </ul>
+</li>
+</ul>
+</div>
+</body>
+</html>
+
